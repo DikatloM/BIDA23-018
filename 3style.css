@@ -1,0 +1,159 @@
+
+
+
+
+.logo{
+    height: 70px;
+    
+}
+
+.navbar{
+    background-color: #000000;
+    
+    
+}
+.navdiv{
+    align-items: center; 
+    justify-content: space-between;
+}
+ul {
+    display: inline-block; 
+    list-style: none;
+
+}
+
+ul li a{
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    font-family:sans-serif ;
+    margin-right: 97px;
+    margin-left: 2px;
+    text-align: center;
+    transition: all 0.3s;
+    
+    
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul a:hover {
+    cursor: pointer;
+
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.search{
+    float: inline-end;
+    align-items:center;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    
+}
+ul li ul.dropdown li{
+display: block;
+
+}
+ul li ul .dropdown{
+    position:absolute;
+    display:none;
+    width:auto;
+    z-index: 999;
+}
+ul li a:hover {
+    color: black;
+   
+    background-color: white;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+    background-color:black;
+}
+
+
+
+
+
+.movie-img{
+    float: left;
+    width: 550px; 
+    height: 700px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.movie-list{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+
+}
+.movie-list-item{
+    margin-right: 0;
+}
+
+
+
+.movie-list-container{
+    padding:7px;
+}
+
+.movie-list-title{
+    color: white;
+   font-family:  Arial, Helvetica, sans-serif;
+   padding-bottom: 30px;
+}
+
+   
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: calc(100hv - 5px);
+    clear: both;
+    width: 100%;
+    margin-top:5px;
+    
+}
+
+.logof{
+    height: 50px;
+    float: left;
+    
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    column-gap:1em ;
+
+}
+
+.social .bx{
+    background: white;
+    padding: 2px;
+    font-size: 2em;
+    border-radius: 50%;
+    color: #000000;
+}
+
+
+.container{
+    min-height: calc(100vh - 50px);
+    background-color: #0a0a0a;
+}
