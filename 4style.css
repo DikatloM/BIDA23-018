@@ -40,6 +40,37 @@ ul a:hover {
 
 }
 
+.search{
+    float: inline-end;
+    align-items:center;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    
+}
+ul li ul.dropdown li{
+display: block;
+
+}
+ul li ul .dropdown{
+    position:absolute;
+    display:none;
+    width:auto;
+    z-index: 999;
+}
+ul li a:hover {
+    color: black;
+   
+    background-color: white;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+    background-color:black;
+}
+
+
 *{
     padding: 0%;
     margin: 0;
